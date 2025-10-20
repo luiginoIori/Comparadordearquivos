@@ -74,4 +74,40 @@ Acesso rápido aos locais mais utilizados:
 
 ---
 
+## 🚚 **Nova Funcionalidade: Mover Arquivos**
+
+### 📋 **Seleção de Arquivos**
+Após a análise, você pode:
+- ✅ **Selecionar Individual**: Use os checkboxes ao lado de cada arquivo
+- ✅ **Selecionar Todos**: Marca todos os arquivos duplicados
+- ❌ **Desmarcar Todos**: Remove todas as seleções
+- 🔄 **Inverter Seleção**: Inverte a seleção atual
+
+### 🗂️ **Configuração de Destino**
+1. **Pasta Base**: Escolha onde criar a pasta "arquivos_a_serem_deletados"
+2. **Navegador**: Use o botão 📁 para selecionar visualmente
+3. **Criação Automática**: A pasta será criada automaticamente se não existir
+
+### 🎯 **Opções de Movimentação**
+- **Arquivo Duplicado (Recomendado)**: Move o arquivo encontrado na pasta de comparação
+- **Arquivo Original**: Move o arquivo da pasta de origem
+
+### 🚚 **Processo de Movimentação**
+1. Selecione os arquivos desejados
+2. Configure a pasta base de destino
+3. Escolha qual arquivo mover (original ou duplicado)
+4. Clique em "🚚 Mover Arquivos Selecionados"
+5. Acompanhe o progresso em tempo real
+6. Abra a pasta de destino quando concluído
+
+### 📂 **Resultado**
+Os arquivos serão movidos para:
+`[Pasta Base]\arquivos_a_serem_deletados\`
+
+### ⚠️ **Segurança**
+- Arquivos são **movidos**, não copiados
+- Numeração automática evita sobrescrita
+- Processo reversível (você pode mover de volta)
+- Sem exclusão permanente até você decidir
+
 **💡 Lembre-se**: O sistema compara nome, tamanho, data e conteúdo (hash MD5) para garantir 100% de precisão na detecção de duplicados!
